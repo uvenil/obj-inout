@@ -1,0 +1,18 @@
+{
+  "name": "obj-inout",
+  "version": "1.1.0",
+  "description": "{\"id1\":{\"ida\":10}, \"id2\":{\"ida\":20}} <-> {\"ida\":{\"id1\":10, \"id2\":20}}",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js",
+    "prepublishOnly": "npm test"
+  },
+  "bin": {
+    "obj-inout": "bin/obj-inout.js"
+  },
+  "author": "uvenil",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^8.0.1"
+  }
+}
